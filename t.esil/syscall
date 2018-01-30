@@ -48,7 +48,7 @@ FILE=../bins/elf/syscall_x86
 CMDS='
 e asm.bytes=0
 e asm.lines=0
-e asm.emustr=1
+e asm.emu.str=1
 e asm.cmtcol=30
 pd 5~write
 '

@@ -12,7 +12,7 @@ CMDS='
 e asm.emu=true
 e asm.bits=64
 e asm.arch=x86
-e asm.emuwrite=true
+e asm.emu.write=true
 e io.cache=true
 aei
 aeim

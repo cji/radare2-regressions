@@ -1673,7 +1673,7 @@ CMDS='
 s 0x00400820
 af
 e asm.emu=true
-e asm.emuwrite=true
+e asm.emu.write=true
 e asm.lines=false
 e asm.fcnlines=false
 aei

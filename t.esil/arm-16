@@ -620,7 +620,7 @@ ARGS=
 CMDS='e asm.arch=arm
 e asm.bits=16
 e cfg.bigendian=false
-e asm.emustr=true
+e asm.emu.str=true
 wv2 0x2000
 wv2 0x2101 @ 2
 wv2 0xb100 @ 4

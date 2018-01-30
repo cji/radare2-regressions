@@ -53,7 +53,7 @@ NAME='no string on jmp'
 ARGS=
 CMDS='e asm.arch=x86
 e asm.bits=32
-e asm.emustr=true
+e asm.emu.str=true
 wa jmp 0x100
 w hello @ 0x100
 pd 1
@@ -67,7 +67,7 @@ ARGS=
 CMDS='e asm.arch=arm
 e asm.bits=64
 e cfg.bigendian=false
-e asm.emustr=true
+e asm.emu.str=true
 wv 0x52800015
 wv 0x340000b5 @ 4
 w hello @ 0x18

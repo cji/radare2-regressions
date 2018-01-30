@@ -734,7 +734,7 @@ ARGS=
 CMDS='e asm.arch=arm
 e asm.bits=64
 e cfg.bigendian=false
-e asm.emustr=true
+e asm.emu.str=true
 wv 0x52800015
 wv 0x34000035 @ 4
 wv 0x52800035 @ 8
